@@ -1,0 +1,2 @@
+C:\Users\Bilal\Desktop\move\osp\bilalproje\WebApplication2\obj\Debug\E-gitim.csprojAssemblyReference.cache
+C:\Users\Bilal\Desktop\move\osp\bilalproje\WebApplication2\obj\Debug\E-gitim.csproj.CoreCompileInputs.cache
