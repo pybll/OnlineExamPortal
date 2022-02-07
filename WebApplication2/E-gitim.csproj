@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DEFC9409-DE05-44A8-A6D1-7837886D90C2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminpanel.aspx" />
+    <Content Include="App_Data\eegitim.accdb" />
+    <Content Include="App_Data\vt.accdb" />
+    <Content Include="hatirlat.aspx" />
+    <Content Include="Images\anasayfa.jpg" />
+    <Content Include="Images\anasayfa.png" />
+    <Content Include="Images\anasayfaback.png" />
+    <Content Include="Images\anasayfa_h.jpg" />
+    <Content Include="Images\anasayfa_h.png" />
+    <Content Include="Images\aprenk.png" />
+    <Content Include="Images\apresim.png" />
+    <Content Include="Images\tatata.png" />
+    <Content Include="Images\btn.png" />
+    <Content Include="Images\cizgi.png" />
+    <Content Include="default.aspx" />
+    <Content Include="Images\ddlbg.png" />
+    <Content Include="Images\duyuru-y.png" />
+    <Content Include="Images\eklekaldirdegistir.png" />
+    <Content Include="Images\hakkimizda.png" />
+    <Content Include="Images\hakkimizda_h.png" />
+    <Content Include="Images\handground.png" />
+    <Content Include="Images\iletisim.png" />
+    <Content Include="Images\iletisim_h.png" />
+    <Content Include="Images\kat-cizgi.png" />
+    <Content Include="Images\loginbg.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logodegis.png" />
+    <Content Include="Images\notbilgisi.png" />
+    <Content Include="Images\notbilgisi_h.png" />
+    <Content Include="Images\ogrenci-y.png" />
+    <Content Include="Images\ogretmen-y.png" />
+    <Content Include="Images\ogrn.png" />
+    <Content Include="Images\ogrt.png" />
+    <Content Include="Images\ok.png" />
+    <Content Include="Images\ok2.png" />
+    <Content Include="Images\rehber.png" />
+    <Content Include="Images\sinavlistesi_h.png" />
+    <Content Include="Images\sinavlistesi.png" />
+    <Content Include="Images\ust2.jpg" />
+    <Content Include="logo-y.aspx" />
+    <Content Include="ogrenci-y.aspx" />
+    <Content Include="ogrencipanel.aspx" />
+    <Content Include="ogretmen-y.aspx" />
+    <Content Include="ogretmenpanel.aspx" />
+    <Content Include="sinavol.aspx" />
+    <Content Include="sinavhazirla.aspx" />
+    <Content Include="sinavlar.aspx" />
+    <Content Include="sinavlistesi.aspx" />
+    <Content Include="slider.aspx" />
+    <Content Include="sliderengine\amazingslider.js" />
+    <Content Include="sliderengine\arrows-72-72-0.png" />
+    <Content Include="sliderengine\bottomshadow-110-95-4.png" />
+    <Content Include="sliderengine\carouselarrows-32-32-0.png" />
+    <Content Include="sliderengine\html5boxplayer.swf" />
+    <Content Include="sliderengine\initslider-1.js" />
+    <Content Include="sliderengine\jquery.js" />
+    <Content Include="sliderengine\lightbox-close.png" />
+    <Content Include="sliderengine\lightbox-loading.gif" />
+    <Content Include="sliderengine\lightbox-next.png" />
+    <Content Include="sliderengine\lightbox-playvideo.png" />
+    <Content Include="sliderengine\lightbox-prev.png" />
+    <Content Include="sliderengine\navarrows-28-28-1.png" />
+    <Content Include="sliderengine\navbuttonbgimage-28-28-1.png" />
+    <Content Include="sliderengine\navplaypause-28-28-1.png" />
+    <Content Include="sliderengine\playvideo-64-64-0.png" />
+    <Content Include="sliderengine\previewarrow-16-8-0.png" />
+    <Content Include="sorubankasi.aspx" />
+    <Content Include="style-def.css" />
+    <Content Include="Images\tasarimyonetimi.png" />
+    <Content Include="Images\ust.jpg" />
+    <Content Include="style-admin.css" />
+    <Content Include="Web.config" />
+    <Content Include="Images\yonetici-y.png" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="yonetici-y.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminpanel.aspx.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminpanel.aspx.designer.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hatirlat.aspx.cs">
+      <DependentUpon>hatirlat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hatirlat.aspx.designer.cs">
+      <DependentUpon>hatirlat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logo-y.aspx.cs">
+      <DependentUpon>logo-y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logo-y.aspx.designer.cs">
+      <DependentUpon>logo-y.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrenci-y.aspx.cs">
+      <DependentUpon>ogrenci-y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrenci-y.aspx.designer.cs">
+      <DependentUpon>ogrenci-y.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogrencipanel.aspx.cs">
+      <DependentUpon>ogrencipanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogrencipanel.aspx.designer.cs">
+      <DependentUpon>ogrencipanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmen-y.aspx.cs">
+      <DependentUpon>ogretmen-y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogretmen-y.aspx.designer.cs">
+      <DependentUpon>ogretmen-y.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ogretmenpanel.aspx.cs">
+      <DependentUpon>ogretmenpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ogretmenpanel.aspx.designer.cs">
+      <DependentUpon>ogretmenpanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sinavol.aspx.cs">
+      <DependentUpon>sinavol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sinavol.aspx.designer.cs">
+      <DependentUpon>sinavol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sinavhazirla.aspx.cs">
+      <DependentUpon>sinavhazirla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sinavhazirla.aspx.designer.cs">
+      <DependentUpon>sinavhazirla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sinavlar.aspx.cs">
+      <DependentUpon>sinavlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sinavlar.aspx.designer.cs">
+      <DependentUpon>sinavlar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sinavlistesi.aspx.cs">
+      <DependentUpon>sinavlistesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sinavlistesi.aspx.designer.cs">
+      <DependentUpon>sinavlistesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="slider.aspx.cs">
+      <DependentUpon>slider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="slider.aspx.designer.cs">
+      <DependentUpon>slider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sorubankasi.aspx.cs">
+      <DependentUpon>sorubankasi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sorubankasi.aspx.designer.cs">
+      <DependentUpon>sorubankasi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="yonetici-y.aspx.cs">
+      <DependentUpon>yonetici-y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yonetici-y.aspx.designer.cs">
+      <DependentUpon>yonetici-y.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1081</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1032/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

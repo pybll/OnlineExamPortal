@@ -1,0 +1,154 @@
+<div id="bitir"><asp:Button ID="Button1" runat="server" Text="Sýnavý Bitir" OnClick="Button1_Click" />
+            </div>
+        <div id="solsutun">
+           <asp:Label ID="Label2" runat="server" Text="Label" OnLoad="Label2_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList1" runat="server"  OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label4" runat="server" Text="Label" OnLoad="Label4_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList3" runat="server" OnSelectedIndexChanged="RadioButtonList3_SelectedIndexChanged"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label6" runat="server" Text="Label" OnLoad="Label6_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList5" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label8" runat="server" Text="Label" OnLoad="Label8_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList7" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label10" runat="server" Text="Label" OnLoad="Label10_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList9" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label12" runat="server" Text="Label" OnLoad="Label12_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList11" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label14" runat="server" Text="Label" OnLoad="Label14_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList13" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label16" runat="server" Text="Label" OnLoad="Label16_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList15" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label18" runat="server" Text="Label" OnLoad="Label18_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList17" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label20" runat="server" Text="Label" OnLoad="Label20_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList19" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label22" runat="server" Text="Label" OnLoad="Label22_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList21" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label24" runat="server" Text="Label" OnLoad="Label24_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList23" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label26" runat="server" Text="Label" OnLoad="Label26_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList25" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label28" runat="server" Text="Label" OnLoad="Label28_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList27" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label30" runat="server" Text="Label" OnLoad="Label30_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList29" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label32" runat="server" Text="Label" OnLoad="Label32_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList31" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label34" runat="server" Text="Label" OnLoad="Label34_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList33" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label36" runat="server" Text="Label" OnLoad="Label36_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList35" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label38" runat="server" Text="Label" OnLoad="Label38_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList37" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label40" runat="server" Text="Label" OnLoad="Label40_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList39" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label42" runat="server" Text="Label" OnLoad="Label42_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList41" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label44" runat="server" Text="Label" OnLoad="Label44_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList43" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label46" runat="server" Text="Label" OnLoad="Label46_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList45" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label48" runat="server" Text="Label" OnLoad="Label48_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList47" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label50" runat="server" Text="Label" OnLoad="Label50_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList49" runat="server"></asp:RadioButtonList>
+        </div>
+        <div id="sagsutun">
+            <asp:Label ID="Label3" runat="server" Text="Label" OnLoad="Label3_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList2" runat="server" OnSelectedIndexChanged="RadioButtonList2_SelectedIndexChanged"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label5" runat="server" Text="Label" OnLoad="Label5_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList4" runat="server" OnSelectedIndexChanged="RadioButtonList4_SelectedIndexChanged"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label7" runat="server" Text="Label" OnLoad="Label7_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList6" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label9" runat="server" Text="Label" OnLoad="Label9_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList8" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label11" runat="server" Text="Label" OnLoad="Label11_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList10" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label13" runat="server" Text="Label" OnLoad="Label13_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList12" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label15" runat="server" Text="Label" OnLoad="Label15_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList14" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label17" runat="server" Text="Label" OnLoad="Label17_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList16" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label19" runat="server" Text="Label" OnLoad="Label19_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList18" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label21" runat="server" Text="Label" OnLoad="Label21_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList20" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label23" runat="server" Text="Label" OnLoad="Label23_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList22" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label25" runat="server" Text="Label" OnLoad="Label25_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList24" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label27" runat="server" Text="Label" OnLoad="Label27_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList26" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label29" runat="server" Text="Label" OnLoad="Label29_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList28" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label31" runat="server" Text="Label" OnLoad="Label31_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList30" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label33" runat="server" Text="Label" OnLoad="Label33_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList32" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label35" runat="server" Text="Label" OnLoad="Label35_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList34" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label37" runat="server" Text="Label" OnLoad="Label37_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList36" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label39" runat="server" Text="Label" OnLoad="Label39_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList38" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label41" runat="server" Text="Label" OnLoad="Label41_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList40" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label43" runat="server" Text="Label" OnLoad="Label43_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList42" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label45" runat="server" Text="Label" OnLoad="Label45_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList44" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label47" runat="server" Text="Label" OnLoad="Label47_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList46" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label49" runat="server" Text="Label" OnLoad="Label49_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList48" runat="server"></asp:RadioButtonList>
+            <br />
+           <asp:Label ID="Label51" runat="server" Text="Label" OnLoad="Label51_Load"></asp:Label>
+            <asp:RadioButtonList ID="RadioButtonList50" runat="server"></asp:RadioButtonList>
+        </div>

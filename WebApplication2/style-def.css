@@ -1,0 +1,135 @@
+﻿* {
+    margin: 0px;
+}
+body {
+    background-color:#375b7f;
+}
+
+
+/*#ust {
+    width: 100%;
+    height: 3px;
+    background-image:url('Images/ust.jpg');
+    margin-bottom:35px;
+    box-shadow:#0088c4 0px 1px 25px 5px;
+    -moz-box-shadow:#0088c4 0px 1px 25px 5px;
+    -webkit-box-shadow:#0088c4 0px 1px 25px 5px;
+    -ms-box-shadow:#0088c4 0px 1px 25px 5px;
+    -o-box-shadow:#0088c4 0px 1px 25px 5px;
+    border-bottom:1px dashed #fff;
+}*/
+
+#ust {
+    font-size: smaller;
+    padding-bottom:1px;
+    padding-top:1px;
+    padding-left:40px;
+    font-family: Calibri;
+    background-color: #0081bd;
+    border-bottom: 1px solid #fff;
+    width:100%;
+    color:#fff;
+    font-style:oblique;
+    margin-bottom:50px;
+}
+
+#logo {
+    margin:auto;
+    margin-top:50px;
+    width:933px;
+    text-align:right;
+    padding-right:17px;
+}
+
+#menu {
+    margin: auto;
+    width: 933px;
+    padding-right:17px;
+    margin-top:20px;
+}
+    #anasayfa {
+    background-image: url('Images/anasayfa.png');
+    width:210px; /*220*/
+    height:70px;
+    float:right;
+    }
+    #anasayfa:hover {
+        background-image: url('Images/anasayfa_h.png');
+    }
+    #hakkimizda {
+    background-image: url('Images/hakkimizda.png');
+    width:210px;
+    height:70px;
+    float:right;
+}
+    #hakkimizda:hover {
+        background-image: url('Images/hakkimizda_h.png');
+    }
+    #iletisim {
+    background-image: url('Images/iletisim.png');
+    width:210px;
+    height:70px;
+    float:right;
+}
+    #iletisim:hover {
+        background-image: url('Images/iletisim_h.png');
+    }
+
+
+#giris {
+    background-image:url('Images/loginbg.png');
+    width:950px;
+    height:550px;
+    margin:auto;
+    margin-top:90px; /*50*/
+}
+
+#hatirlat {
+    text-align: left;
+    padding-top:150px;
+    padding-left:100px;
+}
+
+#sol {
+    float: left;
+    width:455px;
+    padding-top:50px;
+    padding-left:100px;
+}
+#sag {
+    padding-top:50px;
+    padding-right:150px;
+    width: 195px;
+    color:#fff;
+    float:left;
+}
+
+table {
+    text-align: center;
+}
+.tblblg {
+    text-align: left;
+}
+
+
+#rehber {
+    clear:both;
+    padding-left:22px;
+    padding-top:36px;
+}
+
+
+
+#footer {
+    width: 100%;
+    padding-top:65px;
+    padding-bottom:65px;
+    background-color:#006492;
+    text-align:center;
+    color:#fff;
+    font-size:medium;
+    border-top:1px solid #fff;
+    font-family:Calibri;
+    margin-top:200px;
+}
+
